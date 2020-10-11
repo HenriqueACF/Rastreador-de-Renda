@@ -15,6 +15,7 @@ function App() {
         for(let i = 0; i < income.length; i++){
             temp += parseInt(income[i].price);
         }
+        setTotalIncome(temp);
     }, [income])
 
   return (
