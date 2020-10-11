@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 //components
 import Header from './components/Header';
+import IncomeForm from './components/IncomeForm';
 
 function App() {
 
@@ -10,7 +11,8 @@ function App() {
 
   return (
     <div className="App">
-        <Header totalIncome={totalIncome}/>    
+        <Header totalIncome={totalIncome}/> 
+        <IncomeForm />   
     </div>
   );
 }
